@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lanjutan</title>
+</head>
+
+<body>
+    <header>
+        <h1>Membuat Form</h1>
+    </header>
+</body>
+
+<form action="proses.php" method="post">
+    <fieldset>
+        <legend>Data Pelanggan</legend>
+        <p>
+            <label for="nama">Nama</label>
+            <input type="text" id="nama" name="nama">
+        </p>
+        <p>
+            <label for="alamat">Alamat</label>
+            <textarea id="alamat" name="alamat" cols="20" rows="3"></textarea>
+        </p>
+        <p>
+            <label>Jenis Kelamin</label>
+            <input id="jk_l" type="radio" name="kelamin" value="L" /><label for="jk_l">Laki-laki</label>
+            <input id="jk_p" type="radio" name="kelamin" value="P" /><label for="jk_l">Perempuan</label>
+        </p>
+        <p>
+            <select name="kendaraan">
+                <option value="" selected="selected">---Usia---</option>
+                <option value="1-4">1 - 4 tahun</option>
+                <option value="5-10">5 - 10 tahun</option>
+                <option value="11-16">11 - 16 tahun</option>
+                <option value="17-24">17 - 24 tahun</option>
+                <option value="25-30">25 - 30 tahun</option>
+                <option value="30+">30+ tahun</option>
+            </select>
+        </p>
+        <p>
+            <label for="myMultiSelect">Pilih Golongan Darah:</label>
+            <select id="myMultiSelect" name="myMultiSelect" multiple>
+                <option value="nilai1">A</option>
+                <option value="nilai2">B</option>
+                <option value="nilai3">AB</option>
+                <option value="nilai4">O</option>
+            </select>
+        </p>
+        <p><input type="submit" value="login"></p>
+    </fieldset>
+</form>
+
+<style>
+    form p > label {
+        display: inline-block;
+        width: 120px;
+    }
+    form input[type="text"], form textarea {
+        border: 1px solid #ff9900;
+    }
+    form input[type="submit"] {
+        border: 1px solid #ffee00;
+        background-color: chocolate;
+        color: rgb(252, 255, 249);
+        font-weight: bold;
+        padding: 5px 15px;
+    }
+</style>
+
+</html>
