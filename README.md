@@ -14,4 +14,7 @@
 ### Perubahan (menambah dropdown menu)
 <img width="656" height="409" alt="lab3 5" src="https://github.com/user-attachments/assets/2ad4c276-eb60-4b71-a3e1-9117945dd7f5" />
 
+### Perubahan (menambah listbox)
+<img width="657" height="391" alt="lab3 6" src="https://github.com/user-attachments/assets/be6b7067-6424-410b-88a5-2c78bf7d52b7" />
+
 
